@@ -1,0 +1,175 @@
+body {
+    background-color: blanchedalmond;
+    margin: 0; /* Remove default body margin */
+    font-family: sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: lightcyan;
+    box-shadow: 2px 1px 2px #eee;
+    cursor: pointer; 
+  }
+  
+  .header img {
+    width: 100px;
+    height: 55px;
+    margin: 0 100px;
+    cursor: pointer; 
+  }
+  
+  .header nav {
+    display: flex;
+  }
+  
+  .header nav div {
+    padding: 34px;
+    color: #666;
+    cursor: pointer;
+  }
+  
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .todo-list img {
+  
+    margin: 0 auto;
+    width: 800px;
+    cursor: pointer; 
+  }
+  
+  
+  
+  .todo-list h1 {
+    font-size: 20px;
+    padding-top: 20px; 
+    font-size: 40px;
+    font-family:sans-serif; 
+    color: #424242;
+    cursor: pointer; 
+  }
+  
+  .todo-list h3 {
+    font-size: 16px;
+    padding-top: 20px; 
+    font-size: 20px;
+    font-family:sans-serif; 
+    color: #424242;
+    cursor: pointer; 
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .date2 {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .date1 {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .table1 {
+    margin-top: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    text-align: left;
+    background-color: #f2f2f2;
+  }
+  
+  .text5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .serialNo,
+  .task1,
+  .check,
+  .data {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .check input[type="radio"] {
+    margin: 0 5px;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .btn1 {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
