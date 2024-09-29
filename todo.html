@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do aap</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="header">
+        <img src="https://icon-library.com/images/todo-icon/todo-icon-5.jpg" alt="To-do icon">
+        <nav>
+            <div>Login</div>
+            <div>Add Data</div>
+            <div>Share</div>
+            <div>Twitter</div>
+            <div>Linkedin</div>
+        </nav>
+    </div>
+
+    <div class="todo-list">
+        <img src="https://cdn.prod.website-files.com/619cef5c40cb8925cd33ece3/621e3d842f5305af9170e4eb_619cef5c40cb8963c133f5fc_6076f40a7bc433d96f4663f4_template-vignette-TO-DO-LIST-1200x900.png" alt="To-do list image">
+        <h1>To Do APP</h1>
+        <h3>Online platform to add your daily target etc</h3>
+
+        <div class="form-container">
+            <form action="backend.php">
+                <div class="box">
+                    <input type="text" class="add" id="add1" placeholder="Add new ..">
+                    <div class="date2">
+                        Due Date:<input type="date" class="date1" name="mydate">
+                    </div>
+
+                    <button type="submit" class="btn">Add Task</button>
+                    <hr>
+                    <div class="table1">
+                        <table class="table2">
+                            <thead>
+                                <th>S.No</th>
+                                <th>ToDO ITEM</th>
+                                <th>STATUS</th>
+                                <th>ACTIONS</th>
+                            </thead>
+                            <tbody>
+                                <tr class="text5">
+                                    <td class="serialNo">1</td>
+                                    <td class="task1">
+                                        <p>Has work completed?</p>
+                                    </td>
+                                    <td class="check">
+                                        Completed <input type="radio" name="Completed" class="green"> Incomplete <input type="radio" name="Incomplete" class="red">
+                                    </td>
+                                    <td class="data">
+                                        <button type="submit" class="btn1">Delete</button>
+                                        <button type="submit" class="btn1">Edit</button>
+                                        <button type="submit" class="btn1">Date</button>
+                                        <button type="submit" class="btn1">Time</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
